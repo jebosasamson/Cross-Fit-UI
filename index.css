@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+main {
+  margin: 10px 125px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5rem;
+}
+a {
+  color: black;
+}
+ul {
+  display: flex;
+}
+li {
+  margin-right: 30px;
+}
+.program-section {
+  display: flex;
+}
+.club-section {
+  display: flex;
+}
+.Cross-section {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
