@@ -34,3 +34,11 @@ li {
   gap: 15px;
   flex-wrap: wrap;
 }
+.cross-card {
+  background-color: burlywood;
+  width: 350px;
+}
+.test1 {
+  display: flex;
+  width: 300px;
+}
