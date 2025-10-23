@@ -13,6 +13,8 @@ nav {
   justify-content: space-between;
   align-items: center;
   font-size: 1.5rem;
+  margin: 30px 70px;
+  padding: 20px;
 }
 a {
   color: black;
@@ -23,12 +25,172 @@ ul {
 li {
   margin-right: 30px;
 }
+
+/* hero css */
+.hero-img-section {
+  position: relative;
+}
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+.hero-text h1 {
+  font-size: 3rem;
+  margin-bottom: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 650;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.hero-text p {
+  font-size: 1.2rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.hero-bg {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 99.5%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+/* hero css */
+
+/* PROGRAM CSS */
 .program-section {
   display: flex;
+  flex-direction: column;
+  margin-bottom: 130px;
 }
-.club-section {
+.program-section header {
+  font-size: 2rem;
+  margin: 30px 0px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 450;
+  text-align: center;
+}
+
+.program-card-container {
   display: flex;
 }
+.program-card {
+  width: 1000px;
+  margin-right: 20px;
+  border: 0.5px solid rgba(56, 56, 56, 0.2);
+}
+.program-card section {
+  padding: 20px;
+}
+.program-card h4 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 450;
+}
+.program-card p {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+  font-family: " Trebuchet MS", sans-serif;
+  font-weight: 300;
+}
+.program-card button {
+  padding: 10px 20px;
+  background-color: #fd7e14;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: 300;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+/* PROGRAM CSS */
+
+/* CLUB CSS */
+.club-section {
+  display: flex;
+  gap: 100px;
+  margin-bottom: 130px;
+}
+.club-text p {
+  width: 90%;
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  color: lightslategray;
+}
+.club-text header {
+  font-size: 2rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+.club-text button {
+  background-color: transparent;
+  border: #fd7e14 1px solid;
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  color: #fd7e14;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+.club-text button:hover {
+  background-color: #fd7e14;
+  color: black;
+}
+/* CLUB CSS */
+
+/* Feature CSS */
+.Feature {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.feature-bg {
+  position: sticky;
+}
+.feature-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.feature-opacity {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 99.5%;
+  background-color: rgba(67, 67, 67, 0.9);
+}
+.feature-content header {
+  font-size: 2rem;
+}
+.feature-content img {
+  margin: 30px 0px;
+}
+.feature-content h5 {
+  font-size: 1.5rem;
+  margin: 0px 0px 30px 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.feature-content p {
+  margin: 0px 0px 30px 0px;
+  line-height: 24px;
+}
+.feature-content button {
+  background-color: #fd7e14;
+  padding: 10px 20px;
+  border: none;
+  font-size: 1.1rem;
+  color: white;
+  border-radius: 5px;
+}
+/* Feature CSS */
 .Cross-section {
   display: flex;
   gap: 15px;
