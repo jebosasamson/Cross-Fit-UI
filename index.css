@@ -25,6 +25,9 @@ ul {
 li {
   margin-right: 30px;
 }
+strong {
+  font-weight: 300;
+}
 
 /* hero css */
 .hero-img-section {
