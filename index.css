@@ -5,9 +5,11 @@
   list-style: none;
   text-decoration: none;
 }
+
 main {
   margin: 10px 125px;
 }
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -16,12 +18,15 @@ nav {
   margin: 30px 70px;
   padding: 20px;
 }
+
 a {
   color: black;
 }
+
 ul {
   display: flex;
 }
+
 li {
   margin-right: 30px;
 }
@@ -151,6 +156,11 @@ li {
   text-align: center;
   color: white;
 }
+
+.feature-bg {
+  background-image: url("images/img_6.jpg.webp");
+}
+
 .feature-bg {
   position: sticky;
 }
