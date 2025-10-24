@@ -155,31 +155,41 @@ strong {
 
 /* Feature CSS */
 .Feature {
-  position: relative;
   text-align: center;
   color: white;
 }
 
 .feature-bg {
-  background-image: url("images/img_6.jpg.webp");
+  /* background-image: url("https://preview.colorlib.com/theme/crossfits/images/bg_2.jpg.webp"); */
+  background-image: url("https://preview.colorlib.com/theme/crossfits/images/img_1.jpg.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  background-attachment: fixed;
+  position: relative;
+  z-index: 1;
 }
 
-.feature-bg {
-  position: sticky;
-}
-.feature-content {
+.feature-bg::after {
+  content: "";
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-.feature-opacity {
-  position: absolute;
+  background-color: rgba(0, 0, 0, 0.7);
   top: 0;
+  right: 0;
+  height: 100%;
   width: 100%;
-  height: 99.5%;
-  background-color: rgba(67, 67, 67, 0.9);
+  z-index: 2;
 }
+
+.feature-content {
+  padding: 7rem 16px;
+  max-width: 600px;
+  text-align: center;
+  margin: auto;
+  z-index: 3;
+  position: relative;
+}
+
 .feature-content header {
   font-size: 2rem;
 }
